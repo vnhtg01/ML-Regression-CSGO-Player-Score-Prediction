@@ -20,7 +20,7 @@ Train models and evaluate mainly based on `R2` parameter (above `0.8` is a good 
   - [C.4. Bar plot (Absolute error of the first 50 samples)](#c4-regression-model-evaluation-chart-2-bar-plot-absolute-error-of-the-first-50-samples)
   - [C.5. Residual plot](#c5-regression-model-evaluation-chart-3-residual-plot)
   - [C.6. Histogram of residuals](#c6-regression-model-evaluation-chart-4-histogram-of-residuals)
-  - [C.7. Quickly check other models through MAE, MSE, RMSE, R2](#c6-quickly-check-other-models)
+  - [C.7. Quickly check other models through MAE, MSE, RMSE, R2](#c7-quickly-check-other-models)
 - [D. Results](#d-results)
 
 
