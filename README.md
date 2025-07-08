@@ -12,12 +12,6 @@ Train models and evaluate mainly based on `R2` parameter (above `0.8` is a good 
 # Table of Contents
 
 - [A. Pipeline Overview](#apipeline-overview)
-  - [A.1. Data Import](#a1-data-import--from-kaggle)
-  - [A.2. Exploratory Data Analysis (EDA) & Data Visualization](#a2-exploratory-data-analysis-eda--data-visualization)
-  - [A.3. Data Preprocessing](#a3-data-preprocessing)
-  - [A.5. Model Training](#a5-model-training)
-  - [A.6. Model Evaluation](#a6-model-evaluation)
-  - [A.7. Model Deployment](#a7-model-deployment--not-included)
 - [B. Report File extracted by ydata-profiling](#breport-file-extracted-by-ydata-profiling)
 - [C. Prediction Model Summary](#c-the-file-summarizing-the-prediction-models-includes-the-adjusted-r-squared-r-squared-rmse-and-time-taken-parameters-and-prediction-execution-time-based-on-this-dataset)
   - [C.1. List of trained models sorted](#c1-this-list-of-trained-models-sorted-by-fast-execution-time-and-high-r-squared-parameter)
