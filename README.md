@@ -24,8 +24,8 @@ Train models and evaluate mainly based on `R2` parameter (above `0.8` is a good 
   - [C.2. Top 5 as horizontal bar charts](#c2-top-5-as-horizontal-bar-charts)
   - [C.3. Scatter plot (Actual value and Prediction)](#c3-regression-model-evaluation-chart-1-scatter-plot)
   - [C.4. Bar plot (Absolute error of the first 50 samples)](#c4-regression-model-evaluation-chart-2-bar-plot-absolute-error-of-the-first-50-samples)
-  - [C.5. Residual plot](#c5-residual-plot)
-  - [C.6. Histogram of residuals](#c6-histogram-of-residuals)
+  - [C.5. Residual plot](#c5-regression-model-evaluation-chart-3-residual-plot)
+  - [C.6. Histogram of residuals](#c6-regression-model-evaluation-chart-4-histogram-of-residuals)
 - [D. Results](#d-results)
 
 
