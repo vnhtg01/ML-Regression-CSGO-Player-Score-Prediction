@@ -7,7 +7,7 @@ Build a machine learning model to perform <b>Regression</b> based on a real data
 
 <h4><u>Notes :</u></h4> 
 
-Train models and evaluate mainly based on `R2` parameter (above `0.8` is a good model).
+Train models and evaluate mainly based on `R2` parameter (above `0.8` is a good model). 
 
 # Table of Contents
 
@@ -24,28 +24,36 @@ Train models and evaluate mainly based on `R2` parameter (above `0.8` is a good 
 
 
 # A.Pipeline-Overview
-1. **Data Import** : from Kaggle
-2. **Exploratory Data Analysis (EDA) & Data Visualization**  
-   - Check for missing values  
-   - Analyze variable distributions  
-   - Compute correlation matrix
-   - Create a report of dataset from ydata_profiling
-3. **Data Preprocessing**  
-   - Data encryption :
-     - Numerical features : Standardization by StandardScaler and then using median and IQR to remove outliers to increase model performance by RobustScaler
-     - Categorical Nominal feature : using OneHotEncoder
-     - Categorical Ordinal features : determining the orders then using OrdinalEncoder
-     - Categorical Boolean features : supposing 2 values of each series ​​are ordered (just random !) and also use OrdinalEncoder
-   - Filling in missing value (Nan) by SimpleImputer
-   - Train/Test split
-   - (Bonus) GridSearchCV to find the best hyperparameter
-5. **Model Training** 
-   - Linear Regression  
-   - Random Forest
-   - (Bonus) LazyPredict to show performances of 30-40 differents models
-6. **Model Evaluation** 
-   - MAE, MSE, Coefficient of determination (R2)
-7. **Model Deployment** : not included
+1. **Data Import**
+
+   * Dataset loaded from Kaggle using `pandas`.
+
+2. **Exploratory Data Analysis (EDA)**
+
+   * Checked dataset shape, data types, null values, and unique values.
+   * Performed basic descriptive statistics for numerical and categorical features.
+
+3. **Data Preprocessing**
+
+   * Split into `train/test` sets with `random_state=42` to preserve class distribution.
+   * Handled missing values using `SafeMissForest` (based on the `MissForest` function in the `missforest` library).
+   * Encoded categorical features (`map`, `result`) with `OneHotEncoder`.
+   * Scaled numerical features using `StandardScaler`.
+   * Applied Chi-squared test for feature selection based on statistical significance.
+
+4. **Model Training**
+
+   * Trained a **Linear Regression** model using `sklearn`.
+
+5. **Model Evaluation**
+
+   * Used metrics: **MAE**, **MSE**, **R²**.
+   * Visualized prediction vs actual, residuals, and absolute errors.
+
+6. **Model Deployment**
+
+   * Saved and reloaded the model using `pickle` for future use.
+
 
 # B.Report-File-extracted-by-ydata-profiling
 
