@@ -13,13 +13,14 @@ Train models and evaluate mainly based on `R2` parameter (above `0.8` is a good 
 
 - [A. Pipeline Overview](#apipeline-overview)
 - [B. Report File extracted by ydata-profiling](#breport-file-extracted-by-ydata-profiling)
-- [C. Prediction Model Summary](#c-the-file-summarizing-the-prediction-models-includes-the-adjusted-r-squared-r-squared-rmse-and-time-taken-parameters-and-prediction-execution-time-based-on-this-dataset)
+- [C. Summarizing](#c-summarizing)
   - [C.1. List of trained models sorted](#c1-this-list-of-trained-models-sorted-by-fast-execution-time-and-high-r-squared-parameter)
   - [C.2. Top 5 as horizontal bar charts](#c2-top-5-as-horizontal-bar-charts)
   - [C.3. Scatter plot (Actual value and Prediction)](#c3-regression-model-evaluation-chart-1-scatter-plot)
   - [C.4. Bar plot (Absolute error of the first 50 samples)](#c4-regression-model-evaluation-chart-2-bar-plot-absolute-error-of-the-first-50-samples)
   - [C.5. Residual plot](#c5-regression-model-evaluation-chart-3-residual-plot)
   - [C.6. Histogram of residuals](#c6-regression-model-evaluation-chart-4-histogram-of-residuals)
+  - [C.7. Quickly check other models through MAE, MSE, RMSE, R2](#c6-quickly-check-other-models)
 - [D. Results](#d-results)
 
 
@@ -73,7 +74,7 @@ Train models and evaluate mainly based on `R2` parameter (above `0.8` is a good 
 ![image](https://github.com/user-attachments/assets/3a7f5fee-3cba-47fe-a282-b4768f129d8c)
 ![image](https://github.com/user-attachments/assets/236efd5b-ea79-41c8-b1cf-956f4c34d7e5)
 
-# C. The file summarizing the prediction models includes the Adjusted R-Squared, R-Squared, RMSE and Time Taken parameters and prediction execution time based on this dataset. 
+# C. Summarizing 
 
 #### C.1. This list of trained models sorted by fast execution time and high R-Squared parameter
 ![image](https://github.com/user-attachments/assets/f3da6eb0-3c7c-4892-9ef7-5a68fa826ffb)
@@ -92,6 +93,9 @@ Train models and evaluate mainly based on `R2` parameter (above `0.8` is a good 
 
 #### C.6. Regression model evaluation chart 4: Histogram of residuals
 ![image](https://github.com/user-attachments/assets/596ad803-7c6f-4e00-9098-7214fc3923a2)
+
+#### C.7. Quickly check other models
+![image](https://github.com/user-attachments/assets/e8f05fd6-9d30-409d-9a55-2b5c491355e1)
 
 
 
