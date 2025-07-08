@@ -1,1 +1,1 @@
-# ML-Regression-CSGO-Player-Score-Prediction
+# ML Regression CSGO Player Score Prediction
